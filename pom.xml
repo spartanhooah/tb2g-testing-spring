@@ -446,9 +446,9 @@
 
     <repositories>
         <repository>
-            <id>repository.spring.milestone</id>
-            <name>Spring Milestone Repository</name>
-            <url>http://repo.spring.io/milestone</url>
+            <id>spring.repo</id>
+            <name>Spring Repository</name>
+            <url>https://repo.spring.io/plugins-release</url>
         </repository>
     </repositories>
 
