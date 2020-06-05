@@ -48,9 +48,9 @@ class VetControllerTest {
     void showVetList() {
         Map<String, Object> model = new HashMap<>();
 
-        String returnValue = vetController.showVetList(model);
+        String view = vetController.showVetList(model);
 
-        assertThat(returnValue).isEqualTo("vets/vetList");
+        assertThat(view).isEqualTo("vets/vetList");
         assertThat(model).isNotEmpty().hasSize(1);
         assertThat(model).containsKey("vets");
 //        assertThat(model).extracting("vets").hasSize(1);
